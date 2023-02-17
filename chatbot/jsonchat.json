@@ -1,0 +1,43 @@
+{"intents": [
+    {"tag": "Español-saludos",
+     "patterns": ["buenos dias","Buenas tardes","Buenas noches", "hola, cómo están", "Alo","Buenas","que tal","saludos","ey"],
+     "responses": [", bienvenido al restaurante ¿cómo puedo servirle?" ]
+    },
+    {"tag": "Español-despedidas",
+     "patterns": ["Adios","(.*) adios", "(.*),Hasta luego","hasta luego", "(.*),chao", "Tenga un buen dia","hasta pronto"],
+     "responses": ["Adiós, Tenga un buen día", "Hasta pronto", "Adiós, vuelva pronto"]
+    },
+    {"tag": "Español-pedidos",
+     "patterns": ["me gustaria pedir","quisiera pedir","me gustaria ordenar","quisiera ordenar","puedo ordenar","puedo pedir"],
+     "responses": ["que le gustaría ordenar","por supuesto que le gustaría pedir"]
+    }, 
+    {"tag": "Español-menu",
+     "patterns": ["me gustaria una pizza","me gustaria una lazaña","me gustaria un postre","me gustaria una bebida","quisiera pedir una pizza","quisiera pedir una lazaña","quisiera pedir una ensalada","quisiera pedir una postre","quisiera pedir una bebida","quisiera ordenar una pizza","quisiera ordenar una lazaña","quisiera ordenar una postre","quisiera ordenar una bebida","quiero una pizza","quiero una lazaña","quiero una lazaña ","quiero una bebida","quiero un postre","me daria una pizza","me daria una lazaña","me daria una lazaña ","me daria una bebida","me daria un postre","deme una pizza","deme una lazaña","deme una lazaña ","deme una bebida","deme un postre","quisiera una pizza","quisiera una lazaña","quisiera un postre","quisiera una bebida","un (coca-cola|fresa|brownie|banana)","un (coca-cola|fresa|brownie|banana)"],
+     "responses":[]
+    }, 
+    {"tag": "Español-menu-recomendacion",
+     "patterns": ["que me recomienda ","que podria pedir","nose que pedir que me sugieres","que tienen","que tienen en el menu"],
+     "responses":["tenemos pizza, lasaña, postre y bebidas"]
+    }, 
+    {"tag": "Español-agradecimientos-servicios",
+     "patterns": ["muchas Gacias","estoy encantado del el servicio","que buen servicio","estoy agradecido con el servicio","estoy facinado con el servicio"],
+     "responses": ["es un placer", "de nada"]
+    },
+    {"tag": "Español-tipos-comida",
+     "patterns": ["pizza de que tienen","pizza tienen?","que tipo de pizza tienen","cuales pizzas tienen","lasaña de que tiene","lasaña tiene?","que tipo de lasaña tienen","cuales postres tienen","postres de que tiene","postres tiene?","que tipo de postres tienen","cuales postres tienen","bebidas de que tiene","bebidas tiene?","que tipo de bebidas tienen","cuales bebidas tienen","para tomar","para tomar de que tienen","algo de tomar tiene?","para tomar que tienen","algo para tomar"],
+     "responses": []
+    },
+    {"tag": "Español-pedidos-servicios",
+     "patterns": ["podría, venir un mesero","hay algún mesero disponible","quiero un mesero real","pueden traerme un mesero","no quiero hablar con tigo","traiganme un mesero","podría, venir una persona","pueden traerme a alguien"],
+     "responses": ["si, por supuesto en un momento le atienderan"]
+    },
+    {"tag": "Español-metodos_de_pagos",
+     "patterns": ["¿Aceptan tarjeta de creditos?", "¿Aceptan Masterard?", "¿Solo aceptan efectivo?","como puedo pagar" ],
+     "responses": ["Aceptamos efectivo, tarjetas VISA y Mastercard"]
+    },
+    {"tag": "Español-inentendible",
+     "patterns": ["sciluec9wuhf92","alocjsdichicawpqj x","rggbkotksrjwbskbygtrv"],
+     "responses": ["Lo siento, no entiendo lo que estás intentando decir. ¿Podría reformular su consulta? "]
+}
+]  
+}
