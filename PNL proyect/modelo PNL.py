@@ -13,7 +13,6 @@ def PNL(data):
     return data
 
 def filtro(df):  
-    df = df.drop(df[(df["Tema"]=='Reporte Parque CDS')].index)
     df = df.dropna()
     df = df.reset_index()
 
