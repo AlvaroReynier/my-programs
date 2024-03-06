@@ -228,8 +228,8 @@ password=""
 destination=""
 
 mensaje=MIMEMultipart()
-mensaje["From"]="alvaro.arauz.23@gmail.com"
-mensaje["To"]="samuel"
+mensaje["From"]="" # Correo
+mensaje["To"]="" # nombre
 mensaje["Subject"]="graficas de rendimiento"
 
 archivo =open('Performance graphs.pdf',"rb")
@@ -245,8 +245,8 @@ smtp.sendmail(email,destination,mensaje.as_string())
 smtp.quit()
 
 mensaje=MIMEMultipart()
-mensaje["From"]="alvaro.arauz.23@gmail.com"
-mensaje["To"]="alvaro"
+mensaje["From"]="" # Correo 
+mensaje["To"]="" # nombre
 mensaje["Subject"]="graficas de rendimiento"
 
 archivo =open(f'Delivery report {mes_y_año}.csv',"rb")
